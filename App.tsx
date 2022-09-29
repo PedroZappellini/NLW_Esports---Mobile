@@ -43,7 +43,7 @@ export default function App() {
           getNotificationListener.current
         );
         Notifications.removeNotificationSubscription(
-          responseNotificationListener
+          responseNotificationListener.current
         );
       }
     };
